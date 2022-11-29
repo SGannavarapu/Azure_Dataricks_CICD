@@ -51,7 +51,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: 'clusters'
-        path: '${{ github.workspace }}/clusters'
+        path: '${{ github.workspace }}/clusters/clusters'
 
     # Publish Artifact: Databricks-Notebooks
     - name: 'Publish Artifact: Databricks-Notebooks' 
