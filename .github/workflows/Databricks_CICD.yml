@@ -51,8 +51,8 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: 'clusters'
-        path: '${{ github.workspace }}/clusters'
-
+        path: "git::https://https://github.com/SGannavarapu/GsADB.git//ItemFolder//clusters"
+        
     # Publish Artifact: Databricks-Notebooks
     - name: 'Publish Artifact: Databricks-Notebooks' 
       uses: actions/upload-artifact@v2
